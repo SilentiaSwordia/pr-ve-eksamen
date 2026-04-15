@@ -15,8 +15,8 @@
   <body>
     <header>
       <h1>Grønn Logistikk</h1>
-      <div class="login">
-        <a href="#login">Logg inn</a>
+      <div class="login" id="openLogin">
+        <a>Logg inn</a>
       </div>
       <nav>
         <ul>
@@ -79,6 +79,21 @@
           nisi maximus at.
         </p>
         <button id="closeLøsninger">Lukk</button>
+      </div>
+    </div>
+    <div id="login" class="modal">
+      <div class="modal-inner">
+        <h2>Logg inn</h2>
+        <form>
+          <label for="username">Brukernavn:</label>
+          <input type="text" id="username" name="username" required />
+          <br />
+          <label for="password">Passord:</label>
+          <input type="password" id="password" name="password" required />
+          <br />
+          <button type="submit" style="margin-top: 1%">Logg inn</button>
+        </form>
+        <button id="closeLogin" class="lukkeKnapp">Lukk</button>
       </div>
     </div>
     <footer>
