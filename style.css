@@ -1,4 +1,3 @@
-/* Color Palette - Nature Inspired */
 :root {
   --primary-green: #2d5016;
   --light-green: #5a8c3a;
@@ -10,7 +9,6 @@
   --text-light: #555;
 }
 
-/* Reset and Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +29,6 @@ body {
   min-height: 100vh;
 }
 
-/* Typography */
 h1,
 h2,
 h3 {
@@ -53,7 +50,6 @@ h2 {
   padding-bottom: 0.75rem;
 }
 
-/* Grassy underline decoration */
 h2::after {
   content: "";
   position: absolute;
@@ -76,7 +72,6 @@ p {
   margin-bottom: 1rem;
 }
 
-/* Header */
 header {
   background: var(--cream);
   border-bottom: 2px solid var(--light-gray);
@@ -93,7 +88,6 @@ header h1 {
   font-size: 2rem;
 }
 
-/* Login */
 .login {
   position: absolute;
   top: 2rem;
@@ -116,7 +110,6 @@ header h1 {
   background: var(--light-green);
 }
 
-/* Navigation */
 nav ul {
   list-style: none;
   display: flex;
@@ -153,7 +146,6 @@ nav a:hover::after {
   width: 100%;
 }
 
-/* Sections */
 section {
   padding: 3.5rem 4%;
   max-width: 1200px;
@@ -176,7 +168,6 @@ section:nth-child(even) {
   overflow: hidden;
 }
 
-/* Grassy decorative element */
 #home::before {
   content: "";
   position: absolute;
@@ -207,7 +198,6 @@ section:nth-child(even) {
   color: var(--text-light);
 }
 
-/* Services List */
 #services ul {
   list-style: none;
   display: grid;
@@ -261,7 +251,6 @@ section:nth-child(even) {
   line-height: 1.8;
 }
 
-/* Grass blade pattern - subtle accent */
 body::before {
   content: "";
   position: fixed;
@@ -278,7 +267,6 @@ body::before {
   z-index: 1;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   h1 {
     font-size: 1.8rem;
