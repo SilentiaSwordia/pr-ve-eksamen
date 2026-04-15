@@ -251,6 +251,24 @@ section:nth-child(even) {
   line-height: 1.8;
 }
 
+/* Footer */
+footer {
+  background: var(--light-gray);
+  color: var(--dark-text);
+  padding: 2rem 4%;
+  text-align: center;
+  margin-top: 3rem;
+  width: 100%;
+  border-top: 2px solid rgba(45, 80, 22, 0.1);
+  box-shadow: 0 -2px 8px rgba(45, 80, 22, 0.04);
+}
+
+footer p {
+  color: var(--dark-text);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
 body::before {
   content: "";
   position: fixed;
