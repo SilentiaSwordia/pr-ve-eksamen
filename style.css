@@ -245,6 +245,17 @@ section:nth-child(even) {
   position: relative;
 }
 
+.lukkeKnapp {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  color: var(--text-light);
+  cursor: pointer;
+}
+
 .modal-inner h2 {
   margin-bottom: 1rem;
 }

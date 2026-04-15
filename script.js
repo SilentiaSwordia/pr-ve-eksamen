@@ -7,6 +7,21 @@ const modalLøsninger = document.getElementById("løsninger");
 const closeBTNTransport = document.getElementById("closeTransport");
 const closeBTNOptimalisering = document.getElementById("closeOptimalisering");
 const closeBTNLøsninger = document.getElementById("closeLøsninger");
+const openLogin = document.getElementById("openLogin");
+const modalLogin = document.getElementById("login");
+const closeLogin = document.getElementById("closeLogin");
+
+if (openLogin) {
+  openLogin.addEventListener("click", () => {
+    modalLogin.classList.add("open");
+  });
+}
+
+if (closeLogin) {
+  closeLogin.addEventListener("click", () => {
+    modalLogin.classList.remove("open");
+  });
+}
 
 if (openBTNTransport) {
   openBTNTransport.addEventListener("click", () => {
