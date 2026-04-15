@@ -216,6 +216,10 @@ section:nth-child(even) {
     transform 0.3s ease,
     box-shadow 0.3s ease;
   border-left: 4px solid var(--accent-green);
+  a {
+    text-decoration: none !important;
+    color: var(--dark-text);
+  }
 }
 
 #services li::before {
